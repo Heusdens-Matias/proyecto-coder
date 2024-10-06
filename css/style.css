@@ -1,0 +1,271 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*!----------Header----------*/
+
+header nav img{
+    width: 150px;
+    height: 100;
+}
+
+/*!----------Main----------*/
+
+main section img{
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+    border: 2px solid white;
+    color: white;
+}
+
+.hero{
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+    height: 100vh;
+    display: flex; justify-content: space-around;
+    align-items: center;
+}
+
+main section h1{
+    color: white;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.perspectiva{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex; justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.perspectiva h2{
+    color: white;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.parrafo_perspectiva {
+    padding: 20px;
+    text-align: center;
+}
+
+.pack_uno{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex; justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.pack_uno div h3{
+    color: white;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.pack_uno div p{
+    text-align: center;
+    padding: 20px;
+}
+
+.adquirir_uno{
+    width: 100%px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.pack_uno div a{
+    padding: 5px;
+    border: 2px solid white;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.pack_dos{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex; justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pack_dos div h3{
+    color: white;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.pack_dos p{
+    text-align: center;
+    padding: 20px;
+}
+
+.adquirir_dos{
+    width: 100%px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.pack_dos div a{
+    padding: 5px;
+    border: 2px solid white;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.pack_tres{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex; justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pack_tres div h3{
+    color: white;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.pack_tres p{
+    text-align: center;
+    padding: 20px;
+}
+
+.adquirir_tres{
+    width: 100%px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.pack_tres div a{
+    padding: 5px;
+    border: 2px solid white;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.parrafo {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex; justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.parrafo h2{
+    color: white;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.parrafo p{
+    text-align: center;
+    padding: 50px;
+}
+
+/*!----------Footer----------*/
+
+footer{
+    background-color: rgb(20, 20, 20);
+    display: flex; justify-content: space-around;
+    padding: 100px;
+}
+
+/*? MEDIA QUERY */
+
+@media screen and (max-width:1000px) {
+    .pack_uno{
+        background-color: rgb(20, 20, 20);
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        display: flex; justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .pack_dos{
+        background-color: rgb(20, 20, 20);
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        display: flex; justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .pack_tres{
+        background-color: rgb(20, 20, 20);
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        display: flex; justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
