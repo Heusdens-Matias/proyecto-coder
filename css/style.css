@@ -269,3 +269,17 @@ footer{
         flex-direction: column;
     }
 }
+
+@media screen and (max-width:520px) {
+    main section img{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    main section img{
+        height: 200px;
+        width: 200px;
+    }
+}
