@@ -283,3 +283,445 @@ footer{
         width: 200px;
     }
 }
+
+/**----------Sobre Mi----------*/
+
+/*!----------Main----------*/
+
+.sobremi img{
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+    border: 2px solid white;
+    color: white;
+}
+
+.sobremi{
+    background-color: rgb(20, 20, 20);
+    display: flex; justify-content: space-around; align-items: center;
+    color: white;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 100px;
+    padding-right: 20px;
+}
+
+.sobremi div{
+    width: 100%;
+    height: 100%;
+}
+
+.sobremi p{
+    color: white;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+/*!----------Footer----------*/
+
+.footer_sobremi{
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+/*? MEDIA QUERY */
+
+@media screen and (max-width:1085px){
+    .sobremi{
+        height: 1000px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 500px;
+    }
+    .sobremi img{
+        width: 400px;
+    height: 400px;
+    }
+}
+
+    
+@media screen and (max-width:990px){
+    .sobremi{
+        height: 1200px;
+    }
+}
+
+@media screen and (max-width:530px){
+    .sobremi img{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:428px) {
+    .sobremi img{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .sobremi{
+        height: 1200px;
+    }
+    .imagen {
+        grid-template-rows: 50%;
+    }
+}
+
+/**----------Retratos----------*/
+
+/*!----------Main----------*/
+
+.retratos {
+    background-color: rgb(20, 20, 20);
+    height: 1100px;
+    width: 100%;
+    padding-top: 50px;
+}
+.retratos img{
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+    color: white;
+}
+
+
+.title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.fot_{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-column: 1 / 2;
+}
+
+.fot_dos{
+    position:relative; top: 150px;
+}
+
+.fot_cinco{
+    position:relative; top: 150px;
+}
+
+/*!----------Footer----------*/
+
+footer{
+    background-color: rgb(34, 34, 34);
+    display: flex; justify-content: center;
+    padding: 50px;
+}
+
+/*?----------MEDIA QUERY----------*/
+
+@media screen and (max-width:1200px) {
+    .retratos{
+        height: 1200px;
+        width: 100%;
+    }
+    .title{ 
+    display: flex; justify-content: space-around; align-items: center;
+    color: white;
+    font-size: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    }
+    .fot_{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 300px 300px ;
+    }
+    .fot_dos{
+    position:relative; top: 0px;
+    }
+    .fot_cinco{
+    position:relative; top: 150px;
+    position:relative; top: 0px;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .title{ 
+        display: flex; justify-content: space-around; align-items: center;
+        color: white;
+        font-size: 50px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        text-align: center;
+    
+    }
+}
+
+@media screen and (max-width:660px) {
+    .retratos{
+        height: 2200px;
+        width: 100%;
+    }
+    .fot_{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 300px;
+        }
+    }
+
+    /**----------Retratos----------*/
+
+    /*!----------Main----------*/
+
+.paisajes{
+    background-color: rgb(20, 20, 20);
+    height: 1100px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.paisajes img{
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+    color: white;
+}
+
+
+.title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.fot_{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-column: 1 / 2;
+}
+
+.fot_dos{
+    position:relative; top: 150px;
+}
+
+.fot_cinco{
+    position:relative; top: 150px;
+}
+
+/*!----------Footer----------*/
+
+footer{
+    background-color: rgb(34, 34, 34);
+    display: flex; justify-content: center;
+    padding: 50px;
+}
+
+/*?----------MEDIA QUERY----------*/
+
+@media screen and (max-width:1200px) {
+    .paisajes{
+        height: 1200px;
+        width: 100%;
+    }
+    .title{ 
+    display: flex; justify-content: space-around; align-items: center;
+    color: white;
+    font-size: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    }
+    .fot_{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 300px 300px ;
+    }
+    .fot_dos{
+    position:relative; top: 0px;
+    }
+    .fot_cinco{
+    position:relative; top: 150px;
+    position:relative; top: 0px;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .title{ 
+        display: flex; justify-content: space-around; align-items: center;
+        color: white;
+        font-size: 50px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        text-align: center;
+    
+    }
+}
+
+@media screen and (max-width:660px) {
+    .paisajes{
+        height: 2200px;
+        width: 100%;
+    }
+    .fot_{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 300px;
+        }
+    }
+
+    /**----------Retratos----------*/
+
+    /*!----------Main----------*/
+
+    .eventos{
+        background-color: rgb(20, 20, 20);
+        height: 1100px;
+        width: 100%;
+        padding-top: 50px;
+    }
+    
+    .eventos img{
+        height: 300px;
+        width: 300px;
+        border: 2px solid white;
+        color: white;
+    }
+    
+    
+    .title{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        font-size: 100px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        text-align: center;
+    }
+    
+    .fot_{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 30px;
+        row-gap: 30px;
+        grid-column: 1 / 2;
+    }
+    
+    .fot_dos{
+        position:relative; top: 150px;
+    }
+    
+    .fot_cinco{
+        position:relative; top: 150px;
+    }
+    
+    /*!----------Footer----------*/
+    
+    footer{
+        background-color: rgb(34, 34, 34);
+        display: flex; justify-content: center;
+        padding: 50px;
+    }
+    
+    /*?----------MEDIA QUERY----------*/
+    
+    @media screen and (max-width:1200px) {
+        .eventos{
+            height: 1200px;
+            width: 100%;
+        }
+        .title{ 
+        display: flex; justify-content: space-around; align-items: center;
+        color: white;
+        font-size: 80px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        text-align: center;
+        }
+        .fot_{
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: 300px 300px;
+            grid-template-rows: 300px 300px ;
+        }
+        .fot_dos{
+        position:relative; top: 0px;
+        }
+        .fot_cinco{
+        position:relative; top: 150px;
+        position:relative; top: 0px;
+        }
+    }
+    
+    @media screen and (max-width:720px) {
+        .title{ 
+            display: flex; justify-content: space-around; align-items: center;
+            color: white;
+            font-size: 50px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            text-align: center;
+        
+        }
+    }
+    
+    @media screen and (max-width:660px) {
+        .eventos{
+            height: 2200px;
+            width: 100%;
+        }
+        .fot_{
+            width: 80%;
+            display: grid;
+            grid-template-columns: 300px;
+            grid-template-rows: 300px;
+            }
+        }
+    
