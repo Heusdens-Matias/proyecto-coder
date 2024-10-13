@@ -6,19 +6,19 @@
             height: 500px;
             width: 500px;
             margin: 50px;
-            border: 2px solid white;
-            color: white;
+            border: 2px solid $color_tres;
+            color: $color_tres;
         }
     }
     .hero{
-        background-color: rgb(20, 20, 20);
+        background-color: $color_uno;
         width: 100%;
         height: 100vh;
         display: flex; justify-content: space-around;
         align-items: center;
     
         h1{
-            color: white;
+            color: $color_tres;
             font-size: 40px;
             font-family:Georgia, 'Times New Roman', Times, serif;
             font-weight: bolder;
@@ -26,8 +26,8 @@
     }
     }
     .perspectiva{
-        background-color: rgb(34, 34, 34);
-        color: white;
+        background-color: $color_dos;
+        color: $color_tres;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
         display: flex; justify-content: center;
@@ -35,7 +35,7 @@
         flex-direction: column;
 
         h2{
-            color: white;
+            color: $color_tres;
             font-size: 50px;
             font-family:Georgia, 'Times New Roman', Times, serif;
             font-weight: bolder;
@@ -50,8 +50,8 @@
         }
     }
     .pack_uno{
-        background-color: rgb(20, 20, 20);
-        color: white;
+        background-color: $color_uno;
+        color: $color_tres;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
         display: flex; justify-content: center;
@@ -63,7 +63,7 @@
         div{
 
             h3{
-                color: white;
+                color: $color_tres;
                 font-size: 50px;
                 font-family:Georgia, 'Times New Roman', Times, serif;
                 font-weight: bolder;
@@ -89,8 +89,8 @@
 
             a{
                 padding: 5px;
-                border: 2px solid white;
-                color: white;
+                border: 2px solid $color_tres;
+                color: $color_tres;
                 font-family:Georgia, 'Times New Roman', Times, serif;
                 font-weight: bolder;
                 font-size: 30px;
@@ -98,8 +98,8 @@
         }
     }
     .pack_dos{
-        background-color: rgb(34, 34, 34);
-        color: white;
+        background-color: $color_dos;
+        color: $color_tres;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
         display: flex; justify-content: center;
@@ -111,7 +111,7 @@
         div{
 
             h3{
-                color: white;
+                color: $color_tres;
                 font-size: 50px;
                 font-family:Georgia, 'Times New Roman', Times, serif;
                 font-weight: bolder;
@@ -137,8 +137,8 @@
 
             a{
                 padding: 5px;
-                border: 2px solid white;
-                color: white;
+                border: 2px solid $color_tres;
+                color: $color_tres;
                 font-family:Georgia, 'Times New Roman', Times, serif;
                 font-weight: bolder;
                 font-size: 30px;
@@ -146,8 +146,8 @@
         }
     }
     .pack_tres{
-        background-color: rgb(20, 20, 20);
-        color: white;
+        background-color: $color_uno;
+        color: $color_tres;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
         display: flex; justify-content: center;
@@ -159,7 +159,7 @@
         div{
 
             h3{
-                color: white;
+                color: $color_tres;
                 font-size: 50px;
                 font-family:Georgia, 'Times New Roman', Times, serif;
                 font-weight: bolder;
@@ -185,8 +185,8 @@
 
             a{
                 padding: 5px;
-                border: 2px solid white;
-                color: white;
+                border: 2px solid $color_tres;
+                color: $color_tres;
                 font-family:Georgia, 'Times New Roman', Times, serif;
                 font-weight: bolder;
                 font-size: 30px;
@@ -194,8 +194,8 @@
         }
     }
     .parrafo {
-        background-color: rgb(34, 34, 34);
-        color: white;
+        background-color: $color_dos;
+        color: $color_tres;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
         display: flex; justify-content: center;
@@ -203,7 +203,7 @@
         flex-direction: column;
 
         h2{
-            color: white;
+            color: $color_tres;
             font-size: 50px;
             font-family:Georgia, 'Times New Roman', Times, serif;
             font-weight: bolder;
@@ -222,9 +222,9 @@
 /*---SOBRE MI---*/
 
 .sobremi{
-    background-color: rgb(20, 20, 20);
+    background-color: $color_uno;
     display: flex; justify-content: space-around; align-items: center;
-    color: white;
+    color: $color_tres;
     font-size: 50px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
@@ -237,8 +237,8 @@
         height: 500px;
         width: 500px;
         margin: 50px;
-        border: 2px solid white;
-        color: white;
+        border: 2px solid $color_tres;
+        color: $color_tres;
     }
 
     div{
@@ -246,7 +246,7 @@
         height: 100%;
 
         p{
-            color: white;
+            color: $color_tres;
             font-size: 20px;
             font-family:Georgia, 'Times New Roman', Times, serif;
             font-weight: lighter;
@@ -260,7 +260,7 @@
 /*---RETRATOS---*/
 
 .retratos {
-    background-color: rgb(20, 20, 20);
+    background-color: $color_uno;
     height: 1100px;
     width: 100%;
     padding-top: 0px;
@@ -269,15 +269,15 @@
         img{
             height: 300px;
             width: 300px;
-            border: 2px solid white;
-            color: white;
+            border: 2px solid $color_tres;
+            color: $color_tres;
         }
     }
     .title{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        color: white;
+        color: $color_tres;
         font-size: 100px;
         font-family:Georgia, 'Times New Roman', Times, serif;
         font-weight: bolder;
@@ -308,7 +308,7 @@
 /*---PAISAJES---*/
 
 .paisajes {
-    background-color: rgb(20, 20, 20);
+    background-color: $color_uno;
     height: 1100px;
     width: 100%;
     padding-top: 50px;
@@ -317,15 +317,15 @@
         img{
             height: 300px;
             width: 300px;
-            border: 2px solid white;
-            color: white;
+            border: 2px solid $color_tres;
+            color: $color_tres;
         }
     }
     .title{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        color: white;
+        color: $color_tres;
         font-size: 100px;
         font-family:Georgia, 'Times New Roman', Times, serif;
         font-weight: bolder;
@@ -356,7 +356,7 @@
 /*---EVENTOS---*/
 
 .eventos {
-    background-color: rgb(20, 20, 20);
+    background-color: $color_uno;
     height: 1100px;
     width: 100%;
     padding-top: 50px;
@@ -365,15 +365,15 @@
         img{
             height: 300px;
             width: 300px;
-            border: 2px solid white;
-            color: white;
+            border: 2px solid $color_tres;
+            color: $color_tres;
         }
     }
     .title{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        color: white;
+        color: $color_tres;
         font-size: 100px;
         font-family:Georgia, 'Times New Roman', Times, serif;
         font-weight: bolder;
