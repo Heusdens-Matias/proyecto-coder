@@ -1,0 +1,603 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+header nav div img {
+  width: 150px;
+  height: 100; }
+
+/*---INDEX---*/
+.index_main section img {
+  height: 500px;
+  width: 500px;
+  margin: 50px;
+  border: 2px solid white;
+  color: white; }
+
+.index_main .hero {
+  background-color: #141414;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .index_main .hero h1 {
+    color: white;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center; }
+
+.index_main .perspectiva {
+  background-color: #222222;
+  color: white;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .index_main .perspectiva h2 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px; }
+  .index_main .perspectiva .parrafo_perspectiva {
+    padding: 20px;
+    text-align: center; }
+
+.index_main .pack_uno {
+  background-color: #141414;
+  color: white;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr; }
+  .index_main .pack_uno div h3 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px; }
+  .index_main .pack_uno div p {
+    text-align: center;
+    padding: 20px; }
+  .index_main .pack_uno .adquirir_uno {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px; }
+    .index_main .pack_uno .adquirir_uno a {
+      padding: 5px;
+      border: 2px solid white;
+      color: white;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      font-size: 30px; }
+
+.index_main .pack_dos {
+  background-color: #222222;
+  color: white;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr; }
+  .index_main .pack_dos div h3 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px; }
+  .index_main .pack_dos div p {
+    text-align: center;
+    padding: 20px; }
+  .index_main .pack_dos .adquirir_uno {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px; }
+    .index_main .pack_dos .adquirir_uno a {
+      padding: 5px;
+      border: 2px solid white;
+      color: white;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      font-size: 30px; }
+
+.index_main .pack_tres {
+  background-color: #141414;
+  color: white;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr; }
+  .index_main .pack_tres div h3 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px; }
+  .index_main .pack_tres div p {
+    text-align: center;
+    padding: 20px; }
+  .index_main .pack_tres .adquirir_uno {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px; }
+    .index_main .pack_tres .adquirir_uno a {
+      padding: 5px;
+      border: 2px solid white;
+      color: white;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      font-size: 30px; }
+
+.index_main .parrafo {
+  background-color: #222222;
+  color: white;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .index_main .parrafo h2 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px; }
+  .index_main .parrafo p {
+    text-align: center;
+    padding: 50px; }
+
+/*---SOBRE MI---*/
+.sobremi {
+  background-color: #141414;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 100px;
+  padding-right: 20px; }
+  .sobremi img {
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+    border: 2px solid white;
+    color: white; }
+  .sobremi div {
+    width: 100%;
+    height: 100%; }
+    .sobremi div p {
+      color: white;
+      font-size: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: lighter;
+      text-align: center;
+      margin-top: 10px;
+      padding: 20px; }
+
+/*---RETRATOS---*/
+.retratos {
+  background-color: #141414;
+  height: 1100px;
+  width: 100%;
+  padding-top: 0px; }
+  .retratos div img {
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+    color: white; }
+  .retratos .title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center; }
+  .retratos .fot_ {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-column: 1 / 2; }
+  .retratos .fot_dos {
+    position: relative;
+    top: 150px; }
+  .retratos .fot_cinco {
+    position: relative;
+    top: 150px; }
+
+/*---PAISAJES---*/
+.paisajes {
+  background-color: #141414;
+  height: 1100px;
+  width: 100%;
+  padding-top: 50px; }
+  .paisajes div img {
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+    color: white; }
+  .paisajes .title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center; }
+  .paisajes .fot_ {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-column: 1 / 2; }
+  .paisajes .fot_dos {
+    position: relative;
+    top: 150px; }
+  .paisajes .fot_cinco {
+    position: relative;
+    top: 150px; }
+
+/*---EVENTOS---*/
+.eventos {
+  background-color: #141414;
+  height: 1100px;
+  width: 100%;
+  padding-top: 50px; }
+  .eventos div img {
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+    color: white; }
+  .eventos .title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center; }
+  .eventos .fot_ {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-column: 1 / 2; }
+  .eventos .fot_dos {
+    position: relative;
+    top: 150px; }
+  .eventos .fot_cinco {
+    position: relative;
+    top: 150px; }
+
+/*---footer-v1---*/
+.footer_v1 {
+  background-color: #141414;
+  display: flex;
+  justify-content: space-around;
+  padding: 100px; }
+
+/*---footer-v2---*/
+.footer_v2 {
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  padding: 50px; }
+
+/*---query_index---*/
+@media screen and (max-width: 1000px) {
+  .pack_uno {
+    background-color: #141414;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; } }
+
+@media screen and (max-width: 1000px) {
+  .pack_dos {
+    background-color: #141414;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; } }
+
+@media screen and (max-width: 1000px) {
+  .pack_tres {
+    background-color: #141414;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; } }
+
+@media screen and (max-width: 520px) {
+  main section img {
+    height: 300px;
+    width: 300px; } }
+
+@media screen and (max-width: 320px) {
+  main section img {
+    height: 200px;
+    width: 200px; } }
+
+/*---query_sobremi---*/
+@media screen and (max-width: 1085px) {
+  .sobremi {
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 500px; }
+  .sobremi img {
+    width: 400px;
+    height: 400px; } }
+
+@media screen and (max-width: 990px) {
+  .sobremi {
+    height: 1200px; } }
+
+@media screen and (max-width: 530px) {
+  .sobremi img {
+    height: 300px;
+    width: 300px; } }
+
+@media screen and (max-width: 428px) {
+  .sobremi img {
+    height: 200px;
+    width: 200px; } }
+
+@media screen and (max-width: 380px) {
+  .sobremi {
+    height: 1200px; }
+  .imagen {
+    grid-template-rows: 50%; } }
+
+/*---query_retratos---*/
+@media screen and (max-width: 1200px) {
+  .retratos {
+    height: 1200px;
+    width: 100%; }
+    .retratos .title {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: white;
+      font-size: 80px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      text-align: center;
+      padding-top: 50px; }
+    .retratos .fot_ {
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: 300px 300px;
+      grid-template-rows: 300px 300px; }
+    .retratos .fot_dos {
+      position: relative;
+      top: 0px; }
+    .retratos .fot_cinco {
+      position: relative;
+      top: 150px;
+      position: relative;
+      top: 0px; } }
+
+@media screen and (max-width: 700px) {
+  .retratos {
+    height: 2200px;
+    width: 100%; }
+    .retratos .title {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: white;
+      font-size: 80px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      text-align: center;
+      padding-top: 50px; }
+    .retratos .fot_ {
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: 300px;
+      grid-template-rows: 300px; }
+    .retratos .fot_dos {
+      position: relative;
+      top: 0px; }
+    .retratos .fot_cinco {
+      position: relative;
+      top: 150px;
+      position: relative;
+      top: 0px; } }
+
+/*---query_paisajes---*/
+@media screen and (max-width: 1200px) {
+  .paisajes {
+    height: 1200px;
+    width: 100%; }
+    .paisajes .title {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: white;
+      font-size: 80px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      text-align: center;
+      padding-top: 50px; }
+    .paisajes .fot_ {
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: 300px 300px;
+      grid-template-rows: 300px 300px; }
+    .paisajes .fot_dos {
+      position: relative;
+      top: 0px; }
+    .paisajes .fot_cinco {
+      position: relative;
+      top: 150px;
+      position: relative;
+      top: 0px; } }
+
+@media screen and (max-width: 700px) {
+  .paisajes {
+    height: 2200px;
+    width: 100%; }
+    .paisajes .title {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: white;
+      font-size: 80px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      text-align: center;
+      padding-top: 50px; }
+    .paisajes .fot_ {
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: 300px;
+      grid-template-rows: 300px; }
+    .paisajes .fot_dos {
+      position: relative;
+      top: 0px; }
+    .paisajes .fot_cinco {
+      position: relative;
+      top: 150px;
+      position: relative;
+      top: 0px; } }
+
+/*---query_eventos---*/
+@media screen and (max-width: 1200px) {
+  .eventos {
+    height: 1200px;
+    width: 100%; }
+    .eventos .title {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: white;
+      font-size: 80px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      text-align: center;
+      padding-top: 50px; }
+    .eventos .fot_ {
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: 300px 300px;
+      grid-template-rows: 300px 300px; }
+    .eventos .fot_dos {
+      position: relative;
+      top: 0px; }
+    .eventos .fot_cinco {
+      position: relative;
+      top: 150px;
+      position: relative;
+      top: 0px; } }
+
+@media screen and (max-width: 700px) {
+  .eventos {
+    height: 2200px;
+    width: 100%; }
+    .eventos .title {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: white;
+      font-size: 80px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      text-align: center;
+      padding-top: 50px; }
+    .eventos .fot_ {
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: 300px;
+      grid-template-rows: 300px; }
+    .eventos .fot_dos {
+      position: relative;
+      top: 0px; }
+    .eventos .fot_cinco {
+      position: relative;
+      top: 150px;
+      position: relative;
+      top: 0px; } }

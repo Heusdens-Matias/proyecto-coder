@@ -1,0 +1,290 @@
+/*---query_index---*/
+
+@media screen and (max-width:1000px){
+    .pack_uno{
+        background-color: rgb(20, 20, 20);
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        display: flex; justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .pack_dos{
+        background-color: rgb(20, 20, 20);
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        display: flex; justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .pack_tres{
+        background-color: rgb(20, 20, 20);
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        display: flex; justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:520px){
+    main section img{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:320px){
+    main section img{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/*---query_sobremi---*/
+
+@media screen and (max-width:1085px){
+    .sobremi{
+        height: 1000px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 500px;
+    }
+    .sobremi img{
+        width: 400px;
+    height: 400px;
+    }
+}
+
+    
+@media screen and (max-width:990px){
+    .sobremi{
+        height: 1200px;
+    }
+}
+
+@media screen and (max-width:530px){
+    .sobremi img{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:428px){
+    .sobremi img{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:380px){
+    .sobremi{
+        height: 1200px;
+    }
+    .imagen {
+        grid-template-rows: 50%;
+    }
+}
+
+/*---query_retratos---*/
+
+@media screen and (max-width:1200px){
+    .retratos{
+        height: 1200px;
+        width: 100%;
+        .title{ 
+            display: flex; justify-content: space-around; align-items: center;
+            color: white;
+            font-size: 80px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .fot_{
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: 300px 300px;
+            grid-template-rows: 300px 300px ;
+            }
+        .fot_dos{
+            position:relative; top: 0px;
+            }
+            .fot_cinco{
+            position:relative; top: 150px;
+            position:relative; top: 0px;
+        }
+    }
+}
+
+@media screen and (max-width:700px){
+    .retratos{
+        height: 2200px;
+        width: 100%;
+        .title{ 
+            display: flex; justify-content: space-around; align-items: center;
+            color: white;
+            font-size: 80px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .fot_{
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: 300px;
+            grid-template-rows: 300px;
+            }
+        .fot_dos{
+            position:relative; top: 0px;
+            }
+            .fot_cinco{
+            position:relative; top: 150px;
+            position:relative; top: 0px;
+        }
+    }
+}
+
+
+/*---query_paisajes---*/
+
+@media screen and (max-width:1200px){
+    .paisajes{
+        height: 1200px;
+        width: 100%;
+        .title{ 
+            display: flex; justify-content: space-around; align-items: center;
+            color: white;
+            font-size: 80px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .fot_{
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: 300px 300px;
+            grid-template-rows: 300px 300px ;
+            }
+        .fot_dos{
+            position:relative; top: 0px;
+            }
+            .fot_cinco{
+            position:relative; top: 150px;
+            position:relative; top: 0px;
+        }
+    }
+}
+
+@media screen and (max-width:700px){
+    .paisajes{
+        height: 2200px;
+        width: 100%;
+        .title{ 
+            display: flex; justify-content: space-around; align-items: center;
+            color: white;
+            font-size: 80px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .fot_{
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: 300px;
+            grid-template-rows: 300px;
+            }
+        .fot_dos{
+            position:relative; top: 0px;
+            }
+            .fot_cinco{
+            position:relative; top: 150px;
+            position:relative; top: 0px;
+        }
+    }
+}
+
+
+/*---query_eventos---*/
+
+@media screen and (max-width:1200px){
+    .eventos{
+        height: 1200px;
+        width: 100%;
+        .title{ 
+            display: flex; justify-content: space-around; align-items: center;
+            color: white;
+            font-size: 80px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .fot_{
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: 300px 300px;
+            grid-template-rows: 300px 300px ;
+            }
+        .fot_dos{
+            position:relative; top: 0px;
+            }
+            .fot_cinco{
+            position:relative; top: 150px;
+            position:relative; top: 0px;
+        }
+    }
+}
+
+@media screen and (max-width:700px){
+    .eventos{
+        height: 2200px;
+        width: 100%;
+        .title{ 
+            display: flex; justify-content: space-around; align-items: center;
+            color: white;
+            font-size: 80px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .fot_{
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: 300px;
+            grid-template-rows: 300px;
+            }
+        .fot_dos{
+            position:relative; top: 0px;
+            }
+            .fot_cinco{
+            position:relative; top: 150px;
+            position:relative; top: 0px;
+        }
+    }
+}

@@ -95,7 +95,7 @@ main section h1{
 }
 
 .adquirir_uno{
-    width: 100%px;
+    width: 100%;
     height: 50px;
     display: flex;
     justify-content: center;
