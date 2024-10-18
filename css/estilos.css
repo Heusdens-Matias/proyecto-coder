@@ -11,179 +11,177 @@ header nav div img {
   height: 100; }
 
 /*---INDEX---*/
-.index_main section img {
-  height: 500px;
-  width: 500px;
-  margin: 50px;
-  border: 2px solid white;
-  color: white; }
-
-.index_main .hero {
-  background-color: #141414;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
-  .index_main .hero h1 {
-    color: white;
-    font-size: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    text-align: center; }
-
-.index_main .perspectiva {
-  background-color: #222222;
-  color: white;
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; }
-  .index_main .perspectiva h2 {
-    color: white;
-    font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 20px; }
-  .index_main .perspectiva .parrafo_perspectiva {
-    padding: 20px;
-    text-align: center; }
-
-.index_main .pack_uno {
-  background-color: #141414;
-  color: white;
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr; }
-  .index_main .pack_uno div h3 {
-    color: white;
-    font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 20px; }
-  .index_main .pack_uno div p {
-    text-align: center;
-    padding: 20px; }
-  .index_main .pack_uno .adquirir_uno {
+.index_main {
+  background-color: #141414; }
+  .index_main section img {
+    height: 450px;
+    width: 450px;
+    margin: 50px;
+    border: 2px solid white;
+    color: white; }
+  .index_main .hero {
     width: 100%;
-    height: 50px;
+    height: 100vh;
     display: flex;
-    justify-content: center;
-    margin-bottom: 30px; }
-    .index_main .pack_uno .adquirir_uno a {
-      padding: 5px;
-      border: 2px solid white;
+    justify-content: space-around;
+    align-items: center; }
+    .index_main .hero h1 {
       color: white;
+      font-size: 40px;
       font-family: Georgia, 'Times New Roman', Times, serif;
       font-weight: bolder;
-      font-size: 30px; }
-
-.index_main .pack_dos {
-  background-color: #222222;
-  color: white;
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr; }
-  .index_main .pack_dos div h3 {
+      text-align: center; }
+  .index_main .perspectiva {
+    background-color: #222222;
     color: white;
-    font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 20px; }
-  .index_main .pack_dos div p {
-    text-align: center;
-    padding: 20px; }
-  .index_main .pack_dos .adquirir_uno {
-    width: 100%;
-    height: 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
-    margin-bottom: 30px; }
-    .index_main .pack_dos .adquirir_uno a {
-      padding: 5px;
-      border: 2px solid white;
+    align-items: center;
+    flex-direction: column; }
+    .index_main .perspectiva h2 {
       color: white;
+      font-size: 50px;
       font-family: Georgia, 'Times New Roman', Times, serif;
       font-weight: bolder;
-      font-size: 30px; }
-
-.index_main .pack_tres {
-  background-color: #141414;
-  color: white;
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr; }
-  .index_main .pack_tres div h3 {
+      text-align: center;
+      padding-top: 40px;
+      padding-bottom: 20px; }
+    .index_main .perspectiva .parrafo_perspectiva {
+      padding: 20px;
+      text-align: center; }
+  .index_main .pack_uno {
+    border: 2px solid white;
+    box-shadow: 10px 10px 5px black;
+    margin: 50px;
+    background-color: #222222;
     color: white;
-    font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 20px; }
-  .index_main .pack_tres div p {
-    text-align: center;
-    padding: 20px; }
-  .index_main .pack_tres .adquirir_uno {
-    width: 100%;
-    height: 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    .index_main .pack_uno div h3 {
+      color: white;
+      font-size: 50px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      text-align: center;
+      padding-top: 40px;
+      padding-bottom: 20px; }
+    .index_main .pack_uno div p {
+      text-align: center;
+      padding: 20px; }
+    .index_main .pack_uno .imagen {
+      display: flex;
+      justify-content: center; }
+    .index_main .pack_uno .adquirir_uno {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px; }
+      .index_main .pack_uno .adquirir_uno a {
+        padding: 5px;
+        border: 2px solid white;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        font-size: 30px; }
+  .index_main .pack_dos {
+    border: 2px solid white;
+    box-shadow: 10px 10px 5px black;
+    margin: 50px;
+    background-color: #222222;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    .index_main .pack_dos div h3 {
+      color: white;
+      font-size: 50px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      text-align: center;
+      padding-top: 40px;
+      padding-bottom: 20px; }
+    .index_main .pack_dos div p {
+      text-align: center;
+      padding: 20px; }
+    .index_main .pack_dos .imagen {
+      display: flex;
+      justify-content: center; }
+    .index_main .pack_dos .adquirir_uno {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px; }
+      .index_main .pack_dos .adquirir_uno a {
+        padding: 5px;
+        border: 2px solid white;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        font-size: 30px; }
+  .index_main .pack_tres {
+    border: 2px solid white;
+    box-shadow: 10px 10px 5px black;
+    margin: 50px;
+    background-color: #222222;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    .index_main .pack_tres div h3 {
+      color: white;
+      font-size: 50px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      text-align: center;
+      padding-top: 40px;
+      padding-bottom: 20px; }
+    .index_main .pack_tres div p {
+      text-align: center;
+      padding: 20px; }
+    .index_main .pack_tres .imagen {
+      display: flex;
+      justify-content: center; }
+    .index_main .pack_tres .adquirir_uno {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px; }
+      .index_main .pack_tres .adquirir_uno a {
+        padding: 5px;
+        border: 2px solid white;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        font-size: 30px; }
+  .index_main .parrafo {
+    background-color: #222222;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
-    margin-bottom: 30px; }
-    .index_main .pack_tres .adquirir_uno a {
-      padding: 5px;
-      border: 2px solid white;
+    align-items: center;
+    flex-direction: column; }
+    .index_main .parrafo h2 {
       color: white;
+      font-size: 50px;
       font-family: Georgia, 'Times New Roman', Times, serif;
       font-weight: bolder;
-      font-size: 30px; }
-
-.index_main .parrafo {
-  background-color: #222222;
-  color: white;
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; }
-  .index_main .parrafo h2 {
-    color: white;
-    font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 20px; }
-  .index_main .parrafo p {
-    text-align: center;
-    padding: 50px; }
+      text-align: center;
+      padding-top: 40px;
+      padding-bottom: 20px; }
+    .index_main .parrafo p {
+      text-align: center;
+      padding: 50px; }
 
 /*---SOBRE MI---*/
 .sobremi {
@@ -347,47 +345,102 @@ header nav div img {
 
 /*---query_index---*/
 @media screen and (max-width: 1000px) {
-  .pack_uno {
+  .index_main .pack_uno {
     background-color: #141414;
     color: white;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; } }
+    display: grid;
+    grid-template-columns: 1fr; } }
 
 @media screen and (max-width: 1000px) {
-  .pack_dos {
+  .index_main .pack_dos {
     background-color: #141414;
     color: white;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; } }
+    display: grid;
+    grid-template-columns: 1fr; } }
 
 @media screen and (max-width: 1000px) {
-  .pack_tres {
+  .index_main .pack_tres {
     background-color: #141414;
     color: white;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; } }
+    display: grid;
+    grid-template-columns: 1fr; } }
 
-@media screen and (max-width: 520px) {
-  main section img {
+@media screen and (max-width: 700px) {
+  .index_main section img {
     height: 300px;
     width: 300px; } }
 
-@media screen and (max-width: 320px) {
-  main section img {
+@media screen and (max-width: 640px) {
+  .index_main .pack_uno div h3 {
+    font-size: 30px; } }
+
+@media screen and (max-width: 640px) {
+  .index_main .pack_uno div p {
+    font-size: 15px; } }
+
+@media screen and (max-width: 640px) {
+  .index_main .pack_dos div h3 {
+    font-size: 30px; } }
+
+@media screen and (max-width: 640px) {
+  .index_main .pack_dos div p {
+    font-size: 15px; } }
+
+@media screen and (max-width: 640px) {
+  .index_main .pack_tres div h3 {
+    font-size: 30px; } }
+
+@media screen and (max-width: 640px) {
+  .index_main .pack_tres div p {
+    font-size: 15px; } }
+
+@media screen and (max-width: 500px) {
+  .index_main section img {
     height: 200px;
     width: 200px; } }
+
+@media screen and (max-width: 500px) {
+  .index_main .parrafo h2 {
+    font-size: 30px; } }
+
+@media screen and (max-width: 500px) {
+  .index_main .parrafo h2 p {
+    font-size: 30px; } }
+
+@media screen and (max-width: 400px) {
+  .index_main .pack_uno div h3 {
+    font-size: 20px; } }
+
+@media screen and (max-width: 400px) {
+  .index_main .pack_uno div p {
+    font-size: 10px; } }
+
+@media screen and (max-width: 400px) {
+  .index_main .pack_dos div h3 {
+    font-size: 20px; } }
+
+@media screen and (max-width: 400px) {
+  .index_main .pack_dos div p {
+    font-size: 10px; } }
+
+@media screen and (max-width: 400px) {
+  .index_main .pack_tres div h3 {
+    font-size: 20px; } }
+
+@media screen and (max-width: 400px) {
+  .index_main .pack_tres div p {
+    font-size: 10px; } }
+
+@media screen and (max-width: 500px) {
+  .index_main section img {
+    height: 100px;
+    width: 100px; } }
 
 /*---query_sobremi---*/
 @media screen and (max-width: 1085px) {

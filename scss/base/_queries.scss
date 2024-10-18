@@ -1,52 +1,140 @@
 /*---query_index---*/
 
 @media screen and (max-width:1000px){
-    .pack_uno{
+    .index_main .pack_uno {
         background-color: rgb(20, 20, 20);
         color: white;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
-        display: flex; justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
 
 @media screen and (max-width:1000px){
-    .pack_dos{
+    .index_main .pack_dos {
         background-color: rgb(20, 20, 20);
         color: white;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
-        display: flex; justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
 
 @media screen and (max-width:1000px){
-    .pack_tres{
+    .index_main .pack_tres {
         background-color: rgb(20, 20, 20);
         color: white;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
-        display: flex; justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
 
-@media screen and (max-width:520px){
-    main section img{
+@media screen and (max-width:700px){
+    .index_main section img {
         height: 300px;
         width: 300px;
     }
 }
 
-@media screen and (max-width:320px){
-    main section img{
+@media screen and (max-width:640px){
+    .index_main .pack_uno div h3 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:640px){
+    .index_main .pack_uno div p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:640px){
+    .index_main .pack_dos div h3 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:640px){
+    .index_main .pack_dos div p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:640px){
+    .index_main .pack_tres div h3 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:640px){
+    .index_main .pack_tres div p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .index_main section img {
         height: 200px;
         width: 200px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .index_main .parrafo h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .index_main .parrafo h2 p {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .index_main .pack_uno div h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .index_main .pack_uno div p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .index_main .pack_dos div h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .index_main .pack_dos div p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .index_main .pack_tres div h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .index_main .pack_tres div p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .index_main section img {
+        height: 100px;
+        width: 100px;
     }
 }
 

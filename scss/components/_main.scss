@@ -1,17 +1,17 @@
 /*---INDEX---*/
 
 .index_main{
+    background-color: $color_uno;
     section{
         img{
-            height: 500px;
-            width: 500px;
+            height: 450px;
+            width: 450px;
             margin: 50px;
             border: 2px solid $color_tres;
             color: $color_tres;
         }
     }
     .hero{
-        background-color: $color_uno;
         width: 100%;
         height: 100vh;
         display: flex; justify-content: space-around;
@@ -50,16 +50,15 @@
         }
     }
     .pack_uno{
-        background-color: $color_uno;
+        border: 2px solid $color_tres;
+        box-shadow: 10px 10px 5px black;
+        margin: 50px;
+        background-color: $color_dos;
         color: $color_tres;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
-        display: flex; justify-content: center;
-        align-items: center;
-        flex-direction: column;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
         div{
 
             h3{
@@ -75,9 +74,12 @@
             p{
                 text-align: center;
                 padding: 20px;
-
             }
+        }
 
+        .imagen{
+            display: flex;
+            justify-content: center;
         }
 
         .adquirir_uno{
@@ -98,16 +100,15 @@
         }
     }
     .pack_dos{
+        border: 2px solid $color_tres;
+        box-shadow: 10px 10px 5px black;
+        margin: 50px;
         background-color: $color_dos;
         color: $color_tres;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
-        display: flex; justify-content: center;
-        align-items: center;
-        flex-direction: column;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
         div{
 
             h3{
@@ -123,9 +124,12 @@
             p{
                 text-align: center;
                 padding: 20px;
-
             }
+        }
 
+        .imagen{
+            display: flex;
+            justify-content: center;
         }
 
         .adquirir_uno{
@@ -146,18 +150,17 @@
         }
     }
     .pack_tres{
-        background-color: $color_uno;
+        border: 2px solid $color_tres;
+        box-shadow: 10px 10px 5px black;
+        margin: 50px;
+        background-color: $color_dos;
         color: $color_tres;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
-        display: flex; justify-content: center;
-        align-items: center;
-        flex-direction: column;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        div{
 
+        div{
             h3{
                 color: $color_tres;
                 font-size: 50px;
@@ -171,9 +174,12 @@
             p{
                 text-align: center;
                 padding: 20px;
-
             }
+        }
 
+        .imagen{
+            display: flex;
+            justify-content: center;
         }
 
         .adquirir_uno{
