@@ -1,7 +1,9 @@
 /*---query_index---*/
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:950px) {
     .index_main .pack_uno {
+        width: 700px;
+        height: auto;
         background-color: rgb(20, 20, 20);
         color: white;
         font-size: 20px;
@@ -11,8 +13,10 @@
     }
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:950px) {
     .index_main .pack_dos {
+        width: 700px;
+        height: auto;
         background-color: rgb(20, 20, 20);
         color: white;
         font-size: 20px;
@@ -22,8 +26,10 @@
     }
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:950px) {
     .index_main .pack_tres {
+        width: 700px;
+        height: auto;
         background-color: rgb(20, 20, 20);
         color: white;
         font-size: 20px;
@@ -33,151 +39,191 @@
     }
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:800px) {
+    .index_main .pack_uno {
+        width: 500px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .index_main .pack_dos {
+        width: 500px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .index_main .pack_tres {
+        width: 500px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .index_main .pack_uno {
+        width: 400px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .index_main .pack_dos {
+        width: 400px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .index_main .pack_tres {
+        width: 400px;
+        height: 600px;
+    }
+}
+
+
+@media screen and (max-width:580px) {
     .index_main section img {
-        height: 300px;
-        width: 300px;
+        height: 250px;
+        width: 250px;
     }
 }
 
-@media screen and (max-width:640px){
-    .index_main .pack_uno div h3 {
-        font-size: 30px;
+@media screen and (max-width:480px) {
+    .index_main .pack_uno {
+        width: 400px;
+        height: 600px;
     }
 }
 
-@media screen and (max-width:640px){
-    .index_main .pack_uno div p{
-        font-size: 15px;
-    }
-}
-
-@media screen and (max-width:640px){
-    .index_main .pack_dos div h3 {
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width:640px){
-    .index_main .pack_dos div p {
-        font-size: 15px;
-    }
-}
-
-@media screen and (max-width:640px){
-    .index_main .pack_tres div h3 {
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width:640px){
-    .index_main .pack_tres div p {
-        font-size: 15px;
-    }
-}
-
-@media screen and (max-width:500px){
+@media screen and (max-width:480px) {
     .index_main section img {
         height: 200px;
         width: 200px;
     }
 }
 
-@media screen and (max-width:500px){
-    .index_main .parrafo h2 {
-        font-size: 30px;
+
+@media screen and (max-width:450px) {
+    .index_main .pack_uno {
+        width: 320px;
+        height: 600px;
     }
 }
 
-@media screen and (max-width:500px){
-    .index_main .parrafo h2 p {
-        font-size: 30px;
+@media screen and (max-width:450px) {
+    .index_main .pack_dos {
+        width: 320px;
+        height: 600px;
     }
 }
 
-@media screen and (max-width:400px){
-    .index_main .pack_uno div h3 {
+@media screen and (max-width:450px) {
+    .index_main .pack_tres {
+        width: 320px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .index_main .pack_uno .texto_tarjeta {
+        width: auto;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .index_main .pack_uno .texto_tarjeta h3 {
         font-size: 20px;
     }
 }
 
-@media screen and (max-width:400px){
-    .index_main .pack_uno div p{
+@media screen and (max-width:450px) {
+    .index_main .pack_uno .texto_tarjeta p {
         font-size: 10px;
     }
 }
 
-@media screen and (max-width:400px){
-    .index_main .pack_dos div h3 {
+@media screen and (max-width:450px) {
+    .index_main .pack_dos .texto_tarjeta {
+        width: auto;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .index_main .pack_dos .texto_tarjeta h3 {
         font-size: 20px;
     }
 }
 
-@media screen and (max-width:400px){
-    .index_main .pack_dos div p {
+@media screen and (max-width:450px) {
+    .index_main .pack_dos .texto_tarjeta p {
         font-size: 10px;
     }
 }
 
-@media screen and (max-width:400px){
-    .index_main .pack_tres div h3 {
+@media screen and (max-width:450px) {
+    .index_main .pack_tres .texto_tarjeta {
+        width: auto;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .index_main .pack_tres .texto_tarjeta h3 {
         font-size: 20px;
     }
 }
 
-@media screen and (max-width:400px){
-    .index_main .pack_tres div p {
+@media screen and (max-width:450px) {
+    .index_main .pack_tres .texto_tarjeta p {
         font-size: 10px;
-    }
-}
-
-@media screen and (max-width:500px){
-    .index_main section img {
-        height: 100px;
-        width: 100px;
     }
 }
 
 /*---query_sobremi---*/
 
-@media screen and (max-width:1085px){
-    .sobremi{
+@media screen and (max-width:1085px) {
+    .sobremi {
         height: 1000px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto 500px;
     }
-    .sobremi img{
+
+    .sobremi img {
         width: 400px;
-    height: 400px;
+        height: 400px;
     }
 }
 
-    
-@media screen and (max-width:990px){
-    .sobremi{
+
+@media screen and (max-width:990px) {
+    .sobremi {
         height: 1200px;
     }
 }
 
-@media screen and (max-width:530px){
-    .sobremi img{
+@media screen and (max-width:530px) {
+    .sobremi img {
         height: 300px;
         width: 300px;
     }
 }
 
-@media screen and (max-width:428px){
-    .sobremi img{
+@media screen and (max-width:428px) {
+    .sobremi img {
         height: 200px;
         width: 200px;
     }
 }
 
-@media screen and (max-width:380px){
-    .sobremi{
+@media screen and (max-width:380px) {
+    .sobremi {
         height: 1200px;
     }
+
     .imagen {
         grid-template-rows: 50%;
     }
@@ -185,64 +231,82 @@
 
 /*---query_retratos---*/
 
-@media screen and (max-width:1200px){
-    .retratos{
+@media screen and (max-width:1200px) {
+    .retratos {
         height: 1200px;
         width: 100%;
-        .title{ 
-            display: flex; justify-content: space-around; align-items: center;
+
+        .title {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
             color: white;
             font-size: 80px;
-            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: bolder;
             text-align: center;
             padding-top: 50px;
         }
-        .fot_{
+
+        .fot_ {
             width: 80%;
             margin: 0 auto;
             margin-top: 50px;
             display: grid;
             grid-template-columns: 300px 300px;
-            grid-template-rows: 300px 300px ;
-            }
-        .fot_dos{
-            position:relative; top: 0px;
-            }
-            .fot_cinco{
-            position:relative; top: 150px;
-            position:relative; top: 0px;
+            grid-template-rows: 300px 300px;
+        }
+
+        .fot_dos {
+            position: relative;
+            top: 0px;
+        }
+
+        .fot_cinco {
+            position: relative;
+            top: 150px;
+            position: relative;
+            top: 0px;
         }
     }
 }
 
-@media screen and (max-width:700px){
-    .retratos{
+@media screen and (max-width:700px) {
+    .retratos {
         height: 2200px;
         width: 100%;
-        .title{ 
-            display: flex; justify-content: space-around; align-items: center;
+
+        .title {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
             color: white;
             font-size: 80px;
-            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: bolder;
             text-align: center;
             padding-top: 50px;
         }
-        .fot_{
+
+        .fot_ {
             width: 80%;
             margin: 0 auto;
             margin-top: 50px;
             display: grid;
             grid-template-columns: 300px;
             grid-template-rows: 300px;
-            }
-        .fot_dos{
-            position:relative; top: 0px;
-            }
-            .fot_cinco{
-            position:relative; top: 150px;
-            position:relative; top: 0px;
+        }
+
+        .fot_dos {
+            position: relative;
+            top: 0px;
+        }
+
+        .fot_cinco {
+            position: relative;
+            top: 150px;
+            position: relative;
+            top: 0px;
         }
     }
 }
@@ -250,64 +314,82 @@
 
 /*---query_paisajes---*/
 
-@media screen and (max-width:1200px){
-    .paisajes{
+@media screen and (max-width:1200px) {
+    .paisajes {
         height: 1200px;
         width: 100%;
-        .title{ 
-            display: flex; justify-content: space-around; align-items: center;
+
+        .title {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
             color: white;
             font-size: 80px;
-            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: bolder;
             text-align: center;
             padding-top: 50px;
         }
-        .fot_{
+
+        .fot_ {
             width: 80%;
             margin: 0 auto;
             margin-top: 50px;
             display: grid;
             grid-template-columns: 300px 300px;
-            grid-template-rows: 300px 300px ;
-            }
-        .fot_dos{
-            position:relative; top: 0px;
-            }
-            .fot_cinco{
-            position:relative; top: 150px;
-            position:relative; top: 0px;
+            grid-template-rows: 300px 300px;
+        }
+
+        .fot_dos {
+            position: relative;
+            top: 0px;
+        }
+
+        .fot_cinco {
+            position: relative;
+            top: 150px;
+            position: relative;
+            top: 0px;
         }
     }
 }
 
-@media screen and (max-width:700px){
-    .paisajes{
+@media screen and (max-width:700px) {
+    .paisajes {
         height: 2200px;
         width: 100%;
-        .title{ 
-            display: flex; justify-content: space-around; align-items: center;
+
+        .title {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
             color: white;
             font-size: 80px;
-            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: bolder;
             text-align: center;
             padding-top: 50px;
         }
-        .fot_{
+
+        .fot_ {
             width: 80%;
             margin: 0 auto;
             margin-top: 50px;
             display: grid;
             grid-template-columns: 300px;
             grid-template-rows: 300px;
-            }
-        .fot_dos{
-            position:relative; top: 0px;
-            }
-            .fot_cinco{
-            position:relative; top: 150px;
-            position:relative; top: 0px;
+        }
+
+        .fot_dos {
+            position: relative;
+            top: 0px;
+        }
+
+        .fot_cinco {
+            position: relative;
+            top: 150px;
+            position: relative;
+            top: 0px;
         }
     }
 }
@@ -315,64 +397,82 @@
 
 /*---query_eventos---*/
 
-@media screen and (max-width:1200px){
-    .eventos{
+@media screen and (max-width:1200px) {
+    .eventos {
         height: 1200px;
         width: 100%;
-        .title{ 
-            display: flex; justify-content: space-around; align-items: center;
+
+        .title {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
             color: white;
             font-size: 80px;
-            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: bolder;
             text-align: center;
             padding-top: 50px;
         }
-        .fot_{
+
+        .fot_ {
             width: 80%;
             margin: 0 auto;
             margin-top: 50px;
             display: grid;
             grid-template-columns: 300px 300px;
-            grid-template-rows: 300px 300px ;
-            }
-        .fot_dos{
-            position:relative; top: 0px;
-            }
-            .fot_cinco{
-            position:relative; top: 150px;
-            position:relative; top: 0px;
+            grid-template-rows: 300px 300px;
+        }
+
+        .fot_dos {
+            position: relative;
+            top: 0px;
+        }
+
+        .fot_cinco {
+            position: relative;
+            top: 150px;
+            position: relative;
+            top: 0px;
         }
     }
 }
 
-@media screen and (max-width:700px){
-    .eventos{
+@media screen and (max-width:700px) {
+    .eventos {
         height: 2200px;
         width: 100%;
-        .title{ 
-            display: flex; justify-content: space-around; align-items: center;
+
+        .title {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
             color: white;
             font-size: 80px;
-            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: bolder;
             text-align: center;
             padding-top: 50px;
         }
-        .fot_{
+
+        .fot_ {
             width: 80%;
             margin: 0 auto;
             margin-top: 50px;
             display: grid;
             grid-template-columns: 300px;
             grid-template-rows: 300px;
-            }
-        .fot_dos{
-            position:relative; top: 0px;
-            }
-            .fot_cinco{
-            position:relative; top: 150px;
-            position:relative; top: 0px;
+        }
+
+        .fot_dos {
+            position: relative;
+            top: 0px;
+        }
+
+        .fot_cinco {
+            position: relative;
+            top: 150px;
+            position: relative;
+            top: 0px;
         }
     }
 }

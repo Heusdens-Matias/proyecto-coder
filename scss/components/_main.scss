@@ -1,43 +1,56 @@
 /*---INDEX---*/
 
-.index_main{
+.index_main {
     background-color: $color_uno;
-    section{
-        img{
-            height: 450px;
-            width: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    section {
+        img {
+            height: 350px;
+            width: 350px;
             margin: 50px;
             border: 2px solid $color_tres;
             color: $color_tres;
         }
     }
-    .hero{
+
+    .hero {
+        background: linear-gradient(rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.192)), url(../img/inicio/historia.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
         width: 100%;
         height: 100vh;
-        display: flex; justify-content: space-around;
+        display: flex;
+        justify-content: space-around;
         align-items: center;
-    
-        h1{
+
+        h1 {
             color: $color_tres;
             font-size: 40px;
-            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: bolder;
             text-align: center;
+        }
     }
-    }
-    .perspectiva{
+
+    .perspectiva {
         background-color: $color_dos;
         color: $color_tres;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
-        display: flex; justify-content: center;
+        display: flex;
+        justify-content: center;
         align-items: center;
         flex-direction: column;
 
-        h2{
+        h2 {
             color: $color_tres;
             font-size: 50px;
-            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: bolder;
             text-align: center;
             padding-top: 40px;
@@ -49,176 +62,210 @@
             text-align: center;
         }
     }
-    .pack_uno{
+
+    .pack_uno {
         border: 2px solid $color_tres;
-        box-shadow: 10px 10px 5px black;
-        margin: 50px;
         background-color: $color_dos;
-        color: $color_tres;
-        font-size: 20px;
-        font-family: 'Times New Roman', Times, serif;
+        box-shadow: 5px 5px 3px black;
+        border-radius: 8px;
+        width: 900px;
+        height: auto;
+        margin: 20px auto;
+        padding: 20px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        div{
+        grid-template-rows: 1fr;
+        text-align: center;
+        transition: 1s;
 
-            h3{
+        .texto_tarjeta {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            color: $color_tres;
+
+            h3 {
+                font-size: 1.5rem;
                 color: $color_tres;
-                font-size: 50px;
-                font-family:Georgia, 'Times New Roman', Times, serif;
-                font-weight: bolder;
-                text-align: center;
-                padding-top: 40px;
-                padding-bottom: 20px;
+                margin-bottom: 10px;
             }
 
-            p{
-                text-align: center;
-                padding: 20px;
+            p {
+                font-size: 1rem;
+                color: $color_tres;
             }
         }
 
-        .imagen{
+        .imagen {
             display: flex;
             justify-content: center;
+            margin-bottom: 20px;
+
+            img {
+                border-radius: 8px;
+            }
         }
 
-        .adquirir_uno{
-            width: 100%;
-            height: 50px;
-            display: flex;
-            justify-content: center;
-            margin-bottom: 30px;
-
-            a{
-                padding: 5px;
+        .adquirir_uno {
+            a {
                 border: 2px solid $color_tres;
-                color: $color_tres;
-                font-family:Georgia, 'Times New Roman', Times, serif;
-                font-weight: bolder;
-                font-size: 30px;
+                text-decoration: none;
+                background-color: $color_uno;
+                color: white;
+                padding: 10px 20px;
+                border-radius: 5px;
             }
         }
     }
-    .pack_dos{
+
+    .pack_uno:hover {
+        transform: scale(1.1);
+        box-shadow: 10px 10px 6px black;
+    }
+
+    .pack_dos {
         border: 2px solid $color_tres;
-        box-shadow: 10px 10px 5px black;
-        margin: 50px;
         background-color: $color_dos;
-        color: $color_tres;
-        font-size: 20px;
-        font-family: 'Times New Roman', Times, serif;
+        border-radius: 8px;
+        box-shadow: 5px 5px 3px black;
+        width: 900px;
+        height: auto;
+        margin: 20px auto;
+        padding: 20px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        div{
+        grid-template-rows: 1fr;
+        text-align: center;
+        transition: 1s;
 
-            h3{
+        .texto_tarjeta {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            color: $color_tres;
+
+            h3 {
+                font-size: 1.5rem;
                 color: $color_tres;
-                font-size: 50px;
-                font-family:Georgia, 'Times New Roman', Times, serif;
-                font-weight: bolder;
-                text-align: center;
-                padding-top: 40px;
-                padding-bottom: 20px;
+                margin-bottom: 10px;
             }
 
-            p{
-                text-align: center;
-                padding: 20px;
+            p {
+                font-size: 1rem;
+                color: $color_tres;
             }
         }
 
-        .imagen{
+        .imagen {
             display: flex;
             justify-content: center;
+            margin-bottom: 20px;
+
+            img {
+                border-radius: 8px;
+            }
         }
 
-        .adquirir_uno{
-            width: 100%;
-            height: 50px;
-            display: flex;
-            justify-content: center;
-            margin-bottom: 30px;
-
-            a{
-                padding: 5px;
+        .adquirir_uno {
+            a {
                 border: 2px solid $color_tres;
-                color: $color_tres;
-                font-family:Georgia, 'Times New Roman', Times, serif;
-                font-weight: bolder;
-                font-size: 30px;
+                text-decoration: none;
+                background-color: $color_uno;
+                color: white;
+                padding: 10px 20px;
+                border-radius: 5px;
+                transition: background-color 0.3s ease;
             }
         }
     }
-    .pack_tres{
+
+    .pack_dos:hover {
+        transform: scale(1.1);
+        box-shadow: 10px 10px 6px black;
+    }
+
+    .pack_tres {
         border: 2px solid $color_tres;
-        box-shadow: 10px 10px 5px black;
-        margin: 50px;
         background-color: $color_dos;
-        color: $color_tres;
-        font-size: 20px;
-        font-family: 'Times New Roman', Times, serif;
+        border-radius: 8px;
+        box-shadow: 5px 5px 3px black;
+        width: 900px;
+        height: auto;
+        margin: 20px auto;
+        padding: 20px;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        text-align: center;
+        transition: 1s;
 
-        div{
-            h3{
+        .texto_tarjeta {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            color: $color_tres;
+
+            h3 {
+                font-size: 1.5rem;
                 color: $color_tres;
-                font-size: 50px;
-                font-family:Georgia, 'Times New Roman', Times, serif;
-                font-weight: bolder;
-                text-align: center;
-                padding-top: 40px;
-                padding-bottom: 20px;
+                margin-bottom: 10px;
             }
 
-            p{
-                text-align: center;
-                padding: 20px;
+            p {
+                font-size: 1rem;
+                color: $color_tres;
             }
         }
 
-        .imagen{
+        .imagen {
             display: flex;
             justify-content: center;
+            margin-bottom: 20px;
+
+            img {
+                border-radius: 8px;
+            }
         }
 
-        .adquirir_uno{
-            width: 100%;
-            height: 50px;
-            display: flex;
-            justify-content: center;
-            margin-bottom: 30px;
-
-            a{
-                padding: 5px;
+        .adquirir_uno {
+            a {
                 border: 2px solid $color_tres;
-                color: $color_tres;
-                font-family:Georgia, 'Times New Roman', Times, serif;
-                font-weight: bolder;
-                font-size: 30px;
+                text-decoration: none;
+                background-color: $color_uno;
+                color: white;
+                padding: 10px 20px;
+                border-radius: 5px;
+                transition: background-color 0.3s ease;
             }
         }
     }
+
+    .pack_tres:hover {
+        transform: scale(1.1);
+        box-shadow: 10px 10px 6px black;
+    }
+
     .parrafo {
         background-color: $color_dos;
         color: $color_tres;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
-        display: flex; justify-content: center;
+        display: flex;
+        justify-content: center;
         align-items: center;
         flex-direction: column;
 
-        h2{
+        h2 {
             color: $color_tres;
             font-size: 50px;
-            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: bolder;
             text-align: center;
             padding-top: 40px;
             padding-bottom: 20px;
         }
 
-        p{
+        p {
             text-align: center;
             padding: 50px;
         }
@@ -227,19 +274,21 @@
 
 /*---SOBRE MI---*/
 
-.sobremi{
+.sobremi {
     background-color: $color_uno;
-    display: flex; justify-content: space-around; align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     color: $color_tres;
     font-size: 50px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
     text-align: center;
     padding-left: 20px;
     padding-top: 100px;
     padding-right: 20px;
 
-    img{
+    img {
         height: 500px;
         width: 500px;
         margin: 50px;
@@ -247,14 +296,14 @@
         color: $color_tres;
     }
 
-    div{
+    div {
         width: 100%;
         height: 100%;
 
-        p{
+        p {
             color: $color_tres;
             font-size: 20px;
-            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: lighter;
             text-align: center;
             margin-top: 10px;
@@ -271,25 +320,27 @@
     width: 100%;
     padding-top: 0px;
 
-    div{
-        img{
+    div {
+        img {
             height: 300px;
             width: 300px;
             border: 2px solid $color_tres;
             color: $color_tres;
         }
     }
-    .title{
+
+    .title {
         display: flex;
         justify-content: space-around;
         align-items: center;
         color: $color_tres;
         font-size: 100px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         font-weight: bolder;
         text-align: center;
     }
-    .fot_{
+
+    .fot_ {
         width: 50%;
         margin: 0 auto;
         margin-top: 50px;
@@ -301,14 +352,16 @@
         row-gap: 30px;
         grid-column: 1 / 2;
     }
-    
-    .fot_dos{
-        position:relative; top: 150px;
+
+    .fot_dos {
+        position: relative;
+        top: 150px;
     }
-    
-    .fot_cinco{
-        position:relative; top: 150px;
-    }    
+
+    .fot_cinco {
+        position: relative;
+        top: 150px;
+    }
 }
 
 /*---PAISAJES---*/
@@ -319,25 +372,27 @@
     width: 100%;
     padding-top: 50px;
 
-    div{
-        img{
+    div {
+        img {
             height: 300px;
             width: 300px;
             border: 2px solid $color_tres;
             color: $color_tres;
         }
     }
-    .title{
+
+    .title {
         display: flex;
         justify-content: space-around;
         align-items: center;
         color: $color_tres;
         font-size: 100px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         font-weight: bolder;
         text-align: center;
     }
-    .fot_{
+
+    .fot_ {
         width: 50%;
         margin: 0 auto;
         margin-top: 50px;
@@ -349,14 +404,16 @@
         row-gap: 30px;
         grid-column: 1 / 2;
     }
-    
-    .fot_dos{
-        position:relative; top: 150px;
+
+    .fot_dos {
+        position: relative;
+        top: 150px;
     }
-    
-    .fot_cinco{
-        position:relative; top: 150px;
-    }    
+
+    .fot_cinco {
+        position: relative;
+        top: 150px;
+    }
 }
 
 /*---EVENTOS---*/
@@ -367,25 +424,27 @@
     width: 100%;
     padding-top: 50px;
 
-    div{
-        img{
+    div {
+        img {
             height: 300px;
             width: 300px;
             border: 2px solid $color_tres;
             color: $color_tres;
         }
     }
-    .title{
+
+    .title {
         display: flex;
         justify-content: space-around;
         align-items: center;
         color: $color_tres;
         font-size: 100px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         font-weight: bolder;
         text-align: center;
     }
-    .fot_{
+
+    .fot_ {
         width: 50%;
         margin: 0 auto;
         margin-top: 50px;
@@ -397,12 +456,14 @@
         row-gap: 30px;
         grid-column: 1 / 2;
     }
-    
-    .fot_dos{
-        position:relative; top: 150px;
+
+    .fot_dos {
+        position: relative;
+        top: 150px;
     }
-    
-    .fot_cinco{
-        position:relative; top: 150px;
-    }    
+
+    .fot_cinco {
+        position: relative;
+        top: 150px;
+    }
 }
