@@ -3,7 +3,6 @@
 @media screen and (max-width:950px) {
     .index_main .pack_uno {
         width: 700px;
-        height: auto;
         background-color: rgb(20, 20, 20);
         color: white;
         font-size: 20px;
@@ -42,21 +41,27 @@
 @media screen and (max-width:800px) {
     .index_main .pack_uno {
         width: 500px;
-        height: 600px;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .index_main .pack_uno .adquirir_uno {
+        position: relative;
     }
 }
 
 @media screen and (max-width:800px) {
     .index_main .pack_dos {
         width: 500px;
-        height: 600px;
+        height: 700px;
     }
 }
 
 @media screen and (max-width:800px) {
     .index_main .pack_tres {
         width: 500px;
-        height: 600px;
+        height: 700px;
     }
 }
 
