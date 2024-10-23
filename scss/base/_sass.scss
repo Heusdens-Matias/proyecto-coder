@@ -1,5 +1,19 @@
 /*--variables--*/
 $color_uno: rgb(20, 20, 20);
 $color_dos: rgb(34, 34, 34);
-$color_tres: rgb(255, 255, 255)
+$color_tres: rgb(255, 255, 255);
 
+/* ----mixin ----*/
+
+@mixin flex ($flex, $justify, $align, $direction){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+}
+
+@mixin grid ($grid, $columnas, $filas){
+    display: $grid;
+    grid-template-columns: $columnas;
+    grid-template-rows: $filas;
+}

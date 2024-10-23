@@ -1,4 +1,5 @@
 /*--variables--*/
+/* ----mixin ----*/
 * {
   margin: 0;
   padding: 0; }
@@ -12,10 +13,7 @@ header nav div img {
 
 /*---INDEX---*/
 .index_main {
-  background-color: #141414;
-  display: flex;
-  justify-content: center;
-  flex-direction: column; }
+  background-color: #141414; }
   .index_main section img {
     height: 350px;
     width: 350px;
@@ -32,7 +30,8 @@ header nav div img {
     height: 100vh;
     display: flex;
     justify-content: space-around;
-    align-items: center; }
+    align-items: center;
+    flex-direction: column; }
     .index_main .hero h1 {
       color: white;
       font-size: 40px;
@@ -377,7 +376,8 @@ header nav div img {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     display: grid;
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr; } }
 
 @media screen and (max-width: 950px) {
   .index_main .pack_dos {
@@ -388,7 +388,8 @@ header nav div img {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     display: grid;
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr; } }
 
 @media screen and (max-width: 950px) {
   .index_main .pack_tres {
@@ -399,7 +400,8 @@ header nav div img {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     display: grid;
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr; } }
 
 @media screen and (max-width: 800px) {
   .index_main .pack_uno {
