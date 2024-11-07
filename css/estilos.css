@@ -46,7 +46,7 @@ header nav div img {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; }
+    flex-direction: none; }
     .index_main .perspectiva h2 {
       color: white;
       font-size: 50px;
@@ -352,6 +352,63 @@ header nav div img {
   .eventos .fot_cinco {
     position: relative;
     top: 150px; }
+
+/*---LOGIN---*/
+.form {
+  height: 100vh;
+  width: 100%;
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .form .formulario {
+    background: #222222;
+    width: 400PX;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 2px solid white; }
+    .form .formulario h1 {
+      color: white;
+      font-size: 30px;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      text-align: center;
+      border-bottom: 1px solid #222222;
+      padding: 20px 0 20px 0; }
+    .form .formulario .username {
+      border-bottom: 2px solid #141414;
+      margin: 40px 40px 0px 40px;
+      position: relative; }
+      .form .formulario .username input {
+        border: none;
+        background: none;
+        outline: none;
+        color: white; }
+    .form .formulario .iniciar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 40px; }
+    .form .formulario .recupero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0px 20px 20px 20px; }
+    .form .formulario .registro {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      .form .formulario .registro p {
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        text-align: center;
+        border-bottom: 1px solid #222222; }
 
 /*---footer-v1---*/
 .footer_v1 {

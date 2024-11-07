@@ -37,7 +37,7 @@
         color: $color_tres;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
-        @include flex (flex, center, center, column);
+        @include flex (flex, center, center, none);
 
         h2 {
             color: $color_tres;
@@ -452,4 +452,67 @@
         position: relative;
         top: 150px;
     }
+}
+
+/*---LOGIN---*/
+.form{
+    height: 100vh;
+    width: 100%;
+    background-color: $color_uno;
+    @include flex(flex, center, center, column);
+
+.formulario{
+    background: $color_dos;
+    width: 400PX;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 2px solid $color_tres;
+
+    h1{
+        color: $color_tres;
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: bolder;
+        text-align: center;
+        border-bottom: 1px solid $color_dos;
+        padding: 20px 0 20px 0;
+    }
+
+    .username{
+        border-bottom: 2px solid $color_uno;
+        margin: 40px 40px 0px 40px; 
+        position: relative;
+
+
+        input{
+            border: none;
+            background: none;
+            outline: none;
+            color: $color_tres
+        }
+    }
+
+    .iniciar{
+        @include flex(flex, center, center, column);
+        margin-bottom: 40px;
+    }
+
+    .recupero{
+        @include flex(flex, center, center, column);
+        margin: 0px 20px 20px 20px;
+    }
+
+    .registro{
+        @include flex(flex, center, center, column);
+
+        p{
+            color: $color_tres;
+            font-size: 20px;
+            font-family:'Times New Roman', Times, serif;
+            font-weight: bolder;
+            text-align: center;
+            border-bottom: 1px solid $color_dos;
+        }
+    }
+}
 }
